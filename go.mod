@@ -1,6 +1,6 @@
-module github.com/external-secrets-inc/reloader
+module github.com/external-secrets/reloader
 
-go 1.25.1
+go 1.25.5
 
 require (
 	cloud.google.com/go/iam v1.5.3

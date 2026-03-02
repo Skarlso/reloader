@@ -26,7 +26,7 @@ import (
 	"runtime"
 	"testing"
 
-	reloaderv1aplha1 "github.com/external-secrets-inc/reloader/api/v1alpha1"
+	reloaderv1aplha1 "github.com/external-secrets/reloader/api/v1alpha1"
 	esov1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/util/yaml"
