@@ -130,6 +130,7 @@ jobs:
         run: make docker.build
 
       - name: Run Trivy vulnerability scanner
+        if: github.event.pull_request.head.repo.full_name == github.repository      
         uses: aquasecurity/trivy-action@b6643a29fecd7f34b3597bc6acb0a98b03d33ff8 # master
         with:
           image-ref: ${{ inputs.image-name }}:${{ steps.container_info.outputs.image-tag }}
