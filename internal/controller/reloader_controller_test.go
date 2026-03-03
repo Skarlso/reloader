@@ -20,9 +20,9 @@ import (
 	"context"
 	"fmt"
 
+	esv1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1"
 	"github.com/external-secrets/reloader/internal/events"
 	"github.com/external-secrets/reloader/internal/handler"
-	esv1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

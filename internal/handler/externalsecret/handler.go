@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"regexp"
 
+	esov1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1"
 	"github.com/external-secrets/reloader/api/v1alpha1"
 	"github.com/external-secrets/reloader/internal/events"
 	"github.com/external-secrets/reloader/internal/handler/schema"
 	"github.com/external-secrets/reloader/internal/util"
-	esov1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"
 	"sigs.k8s.io/controller-runtime/pkg/client"
