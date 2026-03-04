@@ -1,7 +1,7 @@
 # Image URL to use all building/pushing image targets
 IMG ?= ghcr.io/external-secrets/reloader
 # ENVTEST_K8S_VERSION refers to the version of kubebuilder assets to be downloaded by envtest binary.
-ENVTEST_K8S_VERSION = 1.34.0
+ENVTEST_K8S_VERSION = 1.35.0
 
 ARCH ?= amd64 arm64
 BUILD_ARGS ?= CGO_ENABLED=0
@@ -189,7 +189,7 @@ HELM ?= $(LOCALBIN)/helm
 ## Tool Versions
 KUSTOMIZE_VERSION ?= v5.8.1
 CONTROLLER_TOOLS_VERSION ?= v0.20.1
-ENVTEST_VERSION ?= release-0.22
+ENVTEST_VERSION ?= release-0.23
 GOLANGCI_LINT_VERSION ?= v2.10.1
 HELM_VERSION ?= v4.1.1
 
